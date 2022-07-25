@@ -12,13 +12,19 @@ After completion of the analysis, it was found that the linear model fit the cur
 ![Linear Regression to Predict MPG](https://user-images.githubusercontent.com/102122063/180669092-905c2a6e-e466-4f54-9675-abb368ea5dec.PNG)
 
 ## Summary Statistics on Suspension Coils
+Focusing on the suspension coils of the MechaCar prototype, the variance needs to be less than 100 PSI. First, reviewing all the lots, we found the variance did not exceed 100 PSI and meets specifications. Yet, when we look at each individual lot, we found varying results. Lots 1 and 2 had variances less than 100. The data for Lot 3, however, had a variance of 170.286 PSI, which exceeds the specifications and will need to improve during manufacturing. 
 
+**Summary Total**
 ![Summary_Total_df](https://user-images.githubusercontent.com/102122063/180669105-995837f7-c4cd-497f-af79-f64d0626145c.PNG)
+
+**Lot Summary**
 ![Lot_Summary_df](https://user-images.githubusercontent.com/102122063/180669108-2b6eb104-d71a-4127-8879-e188e995a070.PNG)
-![Summary Statistics on Suspension Coils](https://user-images.githubusercontent.com/102122063/180669098-7b108cd3-6eb5-4c21-9869-d0f253380fdf.PNG)
 
 ## T-Tests on Suspension Coils
+The next step in our analysis was performing t-tests on the suspension coils to compare with vehicles from other manufacturers. The t-tests for all lots fails to reject the null hypothesis due to the p-value being greater than 0.05. The same can be said for Lot 1 and Lot2. Looking at Lot 3 again, the p-value is less than 0.05 which means this data rejects the null hypothesis and the true mean does not equal 1500. 
+
 ![t test All Lots](https://user-images.githubusercontent.com/102122063/180669118-be9de323-4211-46dd-a0d0-940855dbdee9.PNG)
+
 ![t test lot 1 2 3](https://user-images.githubusercontent.com/102122063/180669122-28995156-9f71-4a00-b812-2d44eafbf55c.PNG)
 
 
