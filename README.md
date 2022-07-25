@@ -29,3 +29,4 @@ The next step in our analysis was performing t-tests on the suspension coils to 
 
 
 ## Study Design: MechaCar vs Competition
+Highway fuel efficiency is a top concern for consumers as it can help the car owner save money over time to purchase fuel while also appealing to the more environmentally friendly. Comparing the fuel efficiency of the MechaCar with its competitors would be an insightful next step and study. AutoRUs will need to gather more data, specifically looking at MPG and EPA ratings.  The main goal of the study would be to have the null hypothesis be that there is no difference between MechaCar fuel efficiency and its competitors. For this study, two sample t-tests could be performed for MechaCar and each of its competitors on its MPG and EPA rating. 
